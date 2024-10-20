@@ -15,5 +15,5 @@ provider "aws" {
 
 resource "aws_instance" "Chandrainfra" {
 	ami = "ami-06b21ccaeff8cd686" 
-	instance_type = "t2.nano"
+	instance_type = "t2.micro"
 }
