@@ -13,7 +13,7 @@ provider "aws" {
         #profile = "default"
 	}
 
-resource "aws_instance" "Raminfra" {
+resource "aws_instance" "Chandrainfra" {
 	ami = "ami-06b21ccaeff8cd686" 
 	instance_type = "t2.nano"
 }
